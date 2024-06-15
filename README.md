@@ -40,7 +40,84 @@ This assignment aims to familiarize you with the tools and configurations necess
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
 - A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
 - A reflection on the challenges faced during setup and strategies employed to overcome them.
+ANSWERS TO ASSIGNMENT
+Development Environment Setup
+Introduction
+This document outlines the steps taken to set up a development environment suitable for software engineering projects. It includes the installation and configuration of necessary tools and software, along with a summary of challenges faced and solutions attempted.
 
+Installed Software and Tools
+Operating System:
+
+Windows 11: Installed from Windows 11 Download.
+Text Editor/IDE:
+
+Visual Studio Code: Installed from Visual Studio Code Download.
+Extensions Installed:
+Prettier
+Live Server
+Python
+Pylance
+Python Debugger
+Version Control System:
+
+Git: Installed from Git Download.
+GitHub: Created an account and configured it for hosting repositories.
+Programming Languages and Runtimes:
+
+Python: Installed from Python Download.
+Verified installation with: code python --version
+
+Dart and Flutter: Installed following official instructions.
+Database:
+MySQL: Installed from MySQL Installer.
+MySQL Workbench: Installed but encountered some issues.
+sucessfully installed mysql server mysql workbench and mysql shell
+Detailed Setup Process
+Installing Windows 11
+Downloaded the Windows 11 installation media from the official Microsoft website.
+Followed the installation instructions to install Windows 11.
+
+Installing Visual Studio Code
+Downloaded Visual Studio Code from the official website.
+Installed Visual Studio Code and added necessary extensions:
+Prettier
+Live Server
+Python
+Pylance
+Python Debugger
+
+Setting Up Version Control System
+Downloaded and installed Git.
+Configured Git with my username and email:
+code
+git config --global user.name "my Name"
+git config --global user.email "my.email@example.com"
+Created a GitHub account and initialized a repository.
+Installing Python
+Downloaded Python from the official website.
+Installed Python and ensured it was added to the system PATH.
+Verified the installation:code python --version
+
+Installing Dart and Flutter
+Followed the installation instructions from the official Flutter website.
+Encountered permission issues when checking versions:
+Error message: "permission denied by Trend Micro Apex One"
+Tried whitelisting Dart and Flutter executables in Trend Micro Apex One but the issue persisted.
+
+Challenges Faced
+Dart and Flutter Permission Issues
+Problem: Permission denied by Trend Micro Apex One when running dart --version and flutter --version.
+Attempted Solutions:
+Whitelisted Dart and Flutter executables in Trend Micro Apex One.
+Ran Git Bash as administrator.
+Verified file permissions.
+Disabled Trend Micro Apex One temporarily to test commands.
+Current Status: Still encountering issues but actively troubleshooting
+
+Reflection
+Setting up the development environment was a comprehensive task that required attention to detail and troubleshooting skills. The primary challenges were related to permission issues with Dart and Flutter, and configuration issues with MySQL Workbench. Despite these challenges, the process was a valuable learning experience in managing and configuring development tools. Future improvements could include a more detailed review of antivirus settings and a deeper understanding of MySQL configurations.
+
+attached google docs link for screenshots and sample github repository
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
 
