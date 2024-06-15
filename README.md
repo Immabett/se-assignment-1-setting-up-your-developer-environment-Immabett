@@ -120,6 +120,8 @@ Setting up the development environment was a comprehensive task that required at
 attached google docs link for screenshots and sample github repository
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
+GOOGLE DOCS LINK FOR SCREENSHOTS
+https://docs.google.com/document/d/17Ca8MsLq74l4NtaTj15sD1gH6bjl8aNWdWqR__rbS84/edit?usp=sharing
 
 #Evaluation Criteria:**
 - Completeness and accuracy of setup documentation.
